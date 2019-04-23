@@ -8,7 +8,8 @@ You will need a Java JRE to run the game, which is a JAR file.
 
 *BUILT WITH*
 -IntelliJ IDEA (Java 9)
--Scene Builder (XML)
+-Scene Builder (FXML)
 
 *UPDATES*
-I reformatted some of this document to make it easier on the eyes. And also to announce that I will be changing the source code of my tic tac toe project since I realized that some lines of code could be improved.
+-I reformatted some of this document to make it easier on the eyes. And also to announce that I will be changing the source code of my tic tac toe project since I realized that some lines of code could be improved.
+-Updated this document just to point out that the UI is an FXML file, not XML.
