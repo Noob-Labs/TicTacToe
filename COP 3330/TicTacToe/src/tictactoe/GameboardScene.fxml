@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.TicTacToeController">
+    <children>
+        <Text layoutX="5.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Players" textAlignment="CENTER" wrappingWidth="189.47006797790527">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e51fff" height="10.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+        <Text fx:id="player1name" layoutX="5.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue" textAlignment="CENTER" wrappingWidth="189.47006797790527">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e51fff" height="10.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+        <Text fx:id="player2name" layoutX="5.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Red" textAlignment="CENTER" wrappingWidth="189.47006797790527">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Button fx:id="buttonStartGame" layoutX="50.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#buttonStartGameClicked" prefHeight="50.0" prefWidth="100.0" text="Start">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Button>
+        <GridPane layoutX="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Text fx:id="button_0_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_0_0" mnemonicParsing="false" onMouseClicked="#button_0_0_clicked" prefHeight="135.0" prefWidth="200.0" />
+                <Text fx:id="button_1_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_1_0" layoutX="10.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_1_0_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                <Text fx:id="button_2_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_2_0" layoutX="210.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_2_0_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" />
+                <Text fx:id="button_0_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_0_1" layoutX="410.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_0_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                <Text fx:id="button_1_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_1_1" layoutX="10.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_1_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Text fx:id="button_2_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_2_1" layoutX="210.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_2_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Text fx:id="button_0_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_0_2" layoutX="410.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_0_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="2" />
+                <Text fx:id="button_1_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_1_2" layoutX="10.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_1_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Text fx:id="button_2_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Comic Sans MS Bold" size="96.0" />
+                    </font>
+                </Text>
+                <Button fx:id="button_2_2" layoutX="210.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_2_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            </children>
+        </GridPane>
+        <Text fx:id="player1go" layoutX="50.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="100.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="player2go" layoutX="25.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="150.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="player1Score" layoutX="4.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Text>
+        <Text fx:id="player2Score" layoutX="3.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
