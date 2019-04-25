@@ -35,9 +35,9 @@ public class TicTacToeController {
 
     // FXML Button declarations.
     @FXML
-    public Button button_0_0, button_1_0, button_2_0, button_0_1, button_1_1, button_2_1, button_0_2, button_1_2, button_2_2;
+    public Button button_7, button_8, button_9, button_4, button_5, button_6, button_1, button_2, button_3;
     @FXML
-    public Text button_0_0_Text, button_1_0_Text, button_2_0_Text, button_0_1_Text, button_1_1_Text, button_2_1_Text, button_0_2_Text, button_1_2_Text, button_2_2_Text;
+    public Text button_7_Text, button_8_Text, button_9_Text, button_4_Text, button_5_Text, button_6_Text, button_1_Text, button_2_Text, button_3_Text;
     @FXML
     public Text player1name, player1go;
     @FXML
@@ -110,15 +110,15 @@ public class TicTacToeController {
     }
     private void disableButtons() {
         // Disables all of the buttons, except for the Start button.
-        button_0_0.setDisable(true);
-        button_1_0.setDisable(true);
-        button_2_0.setDisable(true);
-        button_0_1.setDisable(true);
-        button_1_1.setDisable(true);
-        button_2_1.setDisable(true);
-        button_0_2.setDisable(true);
-        button_1_2.setDisable(true);
-        button_2_2.setDisable(true);
+        button_7.setDisable(true);
+        button_8.setDisable(true);
+        button_9.setDisable(true);
+        button_4.setDisable(true);
+        button_5.setDisable(true);
+        button_6.setDisable(true);
+        button_1.setDisable(true);
+        button_2.setDisable(true);
+        button_3.setDisable(true);
         buttonStartGame.setDisable(false);
     }
     private void isBoardFull() {
@@ -201,25 +201,25 @@ public class TicTacToeController {
     }
     private void clearBoard() {
         // The name says it all. Reset all buttons, count, and the board array.
-        button_0_0.setDisable(false);
-        button_1_0.setDisable(false);
-        button_2_0.setDisable(false);
-        button_0_1.setDisable(false);
-        button_1_1.setDisable(false);
-        button_2_1.setDisable(false);
-        button_0_2.setDisable(false);
-        button_1_2.setDisable(false);
-        button_2_2.setDisable(false);
+        button_7.setDisable(false);
+        button_8.setDisable(false);
+        button_9.setDisable(false);
+        button_4.setDisable(false);
+        button_5.setDisable(false);
+        button_6.setDisable(false);
+        button_1.setDisable(false);
+        button_2.setDisable(false);
+        button_3.setDisable(false);
         count = 0;
-        button_0_0_Text.setText("");
-        button_1_0_Text.setText("");
-        button_2_0_Text.setText("");
-        button_0_1_Text.setText("");
-        button_1_1_Text.setText("");
-        button_2_1_Text.setText("");
-        button_0_2_Text.setText("");
-        button_1_2_Text.setText("");
-        button_2_2_Text.setText("");
+        button_7_Text.setText("");
+        button_8_Text.setText("");
+        button_9_Text.setText("");
+        button_4_Text.setText("");
+        button_5_Text.setText("");
+        button_6_Text.setText("");
+        button_1_Text.setText("");
+        button_2_Text.setText("");
+        button_3_Text.setText("");
         player1go.setText("");
         player2go.setText("");
         for (int x = 0; x < 10; x++) {
@@ -235,25 +235,30 @@ public class TicTacToeController {
         They each pass a unique value, "i", depending on the buttons location.
         Lastly, the "isBoardFull" method is called, to check if any more
         moves are possible.
+        Here is a visual representation of the board...
+
+                    7 8 9
+                    4 5 6
+                    1 2 3
      */
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////// TOP ROW /////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
 
-    public void button_0_0_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_7_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 7;
-        clicked(button_0_0, button_0_0_Text, i);
+        clicked(button_7, button_7_Text, i);
         isBoardFull();
     }
-    public void button_1_0_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_8_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 8;
-        clicked(button_1_0, button_1_0_Text, i);
+        clicked(button_8, button_8_Text, i);
         isBoardFull();
     }
-    public void button_2_0_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_9_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 9;
-        clicked(button_2_0, button_2_0_Text, i);
+        clicked(button_9, button_9_Text, i);
         isBoardFull();
     }
 
@@ -261,19 +266,19 @@ public class TicTacToeController {
     /////////////////////////// MIDDLE ROW ///////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
 
-    public void button_0_1_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_4_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 4;
-        clicked(button_0_1, button_0_1_Text, i);
+        clicked(button_4, button_4_Text, i);
         isBoardFull();
     }
-    public void button_1_1_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_5_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 5;
-        clicked(button_1_1, button_1_1_Text, i);
+        clicked(button_5, button_5_Text, i);
         isBoardFull();
     }
-    public void button_2_1_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_6_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 6;
-        clicked(button_2_1, button_2_1_Text, i);
+        clicked(button_6, button_6_Text, i);
         isBoardFull();
     }
 
@@ -281,19 +286,19 @@ public class TicTacToeController {
     ////////////////////////// BOTTOM ROW ////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
 
-    public void button_0_2_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_1_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 1;
-        clicked(button_0_2, button_0_2_Text, i);
+        clicked(button_1, button_1_Text, i);
         isBoardFull();
     }
-    public void button_1_2_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_2_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 2;
-        clicked(button_1_2, button_1_2_Text, i);
+        clicked(button_2, button_2_Text, i);
         isBoardFull();
     }
-    public void button_2_2_clicked(javafx.scene.input.MouseEvent mouseEvent) {
+    public void button_3_clicked(javafx.scene.input.MouseEvent mouseEvent) {
         i = 3;
-        clicked(button_2_2, button_2_2_Text, i);
+        clicked(button_3, button_3_Text, i);
         isBoardFull();
     }
 

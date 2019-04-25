@@ -45,60 +45,60 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Text fx:id="button_0_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
+                <Text fx:id="button_7_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_0_0" mnemonicParsing="false" onMouseClicked="#button_0_0_clicked" prefHeight="135.0" prefWidth="200.0" />
-                <Text fx:id="button_1_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1">
+                <Button fx:id="button_7" mnemonicParsing="false" onMouseClicked="#button_7_clicked" prefHeight="135.0" prefWidth="200.0" />
+                <Text fx:id="button_8_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_1_0" layoutX="10.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_1_0_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" />
-                <Text fx:id="button_2_0_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2">
+                <Button fx:id="button_8" layoutX="10.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_8_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                <Text fx:id="button_9_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_2_0" layoutX="210.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_2_0_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" />
-                <Text fx:id="button_0_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="1">
+                <Button fx:id="button_9" layoutX="210.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_9_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" />
+                <Text fx:id="button_4_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="1">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_0_1" layoutX="410.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_0_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="1" />
-                <Text fx:id="button_1_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="button_4" layoutX="410.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#button_4_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                <Text fx:id="button_5_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_1_1" layoutX="10.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_1_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <Text fx:id="button_2_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Button fx:id="button_5" layoutX="10.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_5_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Text fx:id="button_6_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_2_1" layoutX="210.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_2_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                <Text fx:id="button_0_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="2">
+                <Button fx:id="button_6" layoutX="210.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_6_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Text fx:id="button_1_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.rowIndex="2">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_0_2" layoutX="410.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_0_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="2" />
-                <Text fx:id="button_1_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <Button fx:id="button_1" layoutX="410.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#button_1_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.rowIndex="2" />
+                <Text fx:id="button_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_1_2" layoutX="10.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_1_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                <Text fx:id="button_2_2_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Button fx:id="button_2" layoutX="10.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Text fx:id="button_3_Text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <font>
                         <Font name="Comic Sans MS Bold" size="96.0" />
                     </font>
                 </Text>
-                <Button fx:id="button_2_2" layoutX="210.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_2_2_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Button fx:id="button_3" layoutX="210.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#button_3_clicked" prefHeight="135.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             </children>
         </GridPane>
         <Text fx:id="player1go" layoutX="50.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="100.0">
