@@ -13,3 +13,4 @@ You will need a Java JRE to run the game, which is a JAR file.
 *UPDATES*
 -I reformatted some of this document to make it easier on the eyes. And also to announce that I will be changing the source code of my tic tac toe project since I realized that some lines of code could be improved.
 -Updated this document just to point out that the UI is an FXML file, not XML.
+-Changed the variable names of the game buttons. The buttons were labled "buton_0_1, button_0_2, button_1_0, etc." They were named this way to represent the coordinates of a 2D array, which wasn't used in this program. So I named the variables "button_1, button_2, etc." It's easier to understand, in my opinion.
